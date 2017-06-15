@@ -1,0 +1,408 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{89312FD6-7914-4AE5-AFD7-994B53688A4C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Tech_Inspection</RootNamespace>
+    <AssemblyName>Tech_Inspection</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.9.7.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\MySql.Data.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddOwner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddOwner.Designer.cs">
+      <DependentUpon>AddOwner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GAI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GAI.Designer.cs">
+      <DependentUpon>GAI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HelpBooks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HelpBooks.Designer.cs">
+      <DependentUpon>HelpBooks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InputDates.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InputDates.Designer.cs">
+      <DependentUpon>InputDates.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inspections.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inspections.Designer.cs">
+      <DependentUpon>Inspections.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GAIInspectors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GAIInspectors.Designer.cs">
+      <DependentUpon>GAIInspectors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lrywxtro_nViews.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>lrywxtro_nViews.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="lrywxtro_Tech_InspectBooks.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>lrywxtro_Tech_InspectBooks.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="lrywxtro_Tech_InspectDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>lrywxtro_Tech_InspectDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="lrywxtro_Tech_InspectDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>lrywxtro_Tech_InspectDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="lrywxtro_Tech_InspectDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>lrywxtro_Tech_InspectDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="lrywxtro_Tech_InspectGAI_Insp.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>lrywxtro_Tech_InspectGAI_Insp.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="lrywxtro_Tech_InspectOwner.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>lrywxtro_Tech_InspectOwner.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="lrywxtro_Tech_InspectRanks.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>lrywxtro_Tech_InspectRanks.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Manage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manage.Designer.cs">
+      <DependentUpon>Manage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Owners.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Owners.Designer.cs">
+      <DependentUpon>Owners.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Queries.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Queries.Designer.cs">
+      <DependentUpon>Queries.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchTI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchTI.Designer.cs">
+      <DependentUpon>SearchTI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StartWork.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StartWork.Designer.cs">
+      <DependentUpon>StartWork.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tech_InspectDataSet.cs">
+      <DependentUpon>Tech_InspectDataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Tech_InspectDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Tech_InspectDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Tech_InspectDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Tech_InspectDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserControl.Designer.cs">
+      <DependentUpon>UserControl.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddOwner.resx">
+      <DependentUpon>AddOwner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GAI.resx">
+      <DependentUpon>GAI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HelpBooks.resx">
+      <DependentUpon>HelpBooks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InputDates.resx">
+      <DependentUpon>InputDates.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inspections.resx">
+      <DependentUpon>Inspections.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GAIInspectors.resx">
+      <DependentUpon>GAIInspectors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manage.resx">
+      <DependentUpon>Manage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Owners.resx">
+      <DependentUpon>Owners.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Queries.resx">
+      <DependentUpon>Queries.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchTI.resx">
+      <DependentUpon>SearchTI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StartWork.resx">
+      <DependentUpon>StartWork.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl.resx">
+      <DependentUpon>UserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="lrywxtro_nViews.xsc">
+      <DependentUpon>lrywxtro_nViews.xsd</DependentUpon>
+    </None>
+    <None Include="lrywxtro_nViews.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>lrywxtro_nViews.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="lrywxtro_nViews.xss">
+      <DependentUpon>lrywxtro_nViews.xsd</DependentUpon>
+    </None>
+    <None Include="lrywxtro_Tech_InspectBooks.xsc">
+      <DependentUpon>lrywxtro_Tech_InspectBooks.xsd</DependentUpon>
+    </None>
+    <None Include="lrywxtro_Tech_InspectBooks.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>lrywxtro_Tech_InspectBooks.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="lrywxtro_Tech_InspectBooks.xss">
+      <DependentUpon>lrywxtro_Tech_InspectBooks.xsd</DependentUpon>
+    </None>
+    <None Include="lrywxtro_Tech_InspectDataSet.xsc">
+      <DependentUpon>lrywxtro_Tech_InspectDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="lrywxtro_Tech_InspectDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>lrywxtro_Tech_InspectDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="lrywxtro_Tech_InspectDataSet.xss">
+      <DependentUpon>lrywxtro_Tech_InspectDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="lrywxtro_Tech_InspectDataSet1.xsc">
+      <DependentUpon>lrywxtro_Tech_InspectDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="lrywxtro_Tech_InspectDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>lrywxtro_Tech_InspectDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="lrywxtro_Tech_InspectDataSet1.xss">
+      <DependentUpon>lrywxtro_Tech_InspectDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="lrywxtro_Tech_InspectDataSet2.xsc">
+      <DependentUpon>lrywxtro_Tech_InspectDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="lrywxtro_Tech_InspectDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>lrywxtro_Tech_InspectDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="lrywxtro_Tech_InspectDataSet2.xss">
+      <DependentUpon>lrywxtro_Tech_InspectDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="lrywxtro_Tech_InspectGAI_Insp.xsc">
+      <DependentUpon>lrywxtro_Tech_InspectGAI_Insp.xsd</DependentUpon>
+    </None>
+    <None Include="lrywxtro_Tech_InspectGAI_Insp.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>lrywxtro_Tech_InspectGAI_Insp.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="lrywxtro_Tech_InspectGAI_Insp.xss">
+      <DependentUpon>lrywxtro_Tech_InspectGAI_Insp.xsd</DependentUpon>
+    </None>
+    <None Include="lrywxtro_Tech_InspectOwner.xsc">
+      <DependentUpon>lrywxtro_Tech_InspectOwner.xsd</DependentUpon>
+    </None>
+    <None Include="lrywxtro_Tech_InspectOwner.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>lrywxtro_Tech_InspectOwner.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="lrywxtro_Tech_InspectOwner.xss">
+      <DependentUpon>lrywxtro_Tech_InspectOwner.xsd</DependentUpon>
+    </None>
+    <None Include="lrywxtro_Tech_InspectRanks.xsc">
+      <DependentUpon>lrywxtro_Tech_InspectRanks.xsd</DependentUpon>
+    </None>
+    <None Include="lrywxtro_Tech_InspectRanks.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>lrywxtro_Tech_InspectRanks.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="lrywxtro_Tech_InspectRanks.xss">
+      <DependentUpon>lrywxtro_Tech_InspectRanks.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Tech_InspectDataSet.xsc">
+      <DependentUpon>Tech_InspectDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Tech_InspectDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Tech_InspectDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Tech_InspectDataSet.xss">
+      <DependentUpon>Tech_InspectDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Tech_InspectDataSet7.xsc">
+      <DependentUpon>Tech_InspectDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="Tech_InspectDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Tech_InspectDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Tech_InspectDataSet7.xss">
+      <DependentUpon>Tech_InspectDataSet7.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

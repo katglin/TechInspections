@@ -1,0 +1,57 @@
+c:\users\admin\documents\visual studio 2010\Projects\Tech_Inspection\Tech_Inspection\bin\Debug\Tech_Inspection.pdb
+c:\users\admin\documents\visual studio 2010\Projects\Tech_Inspection\Tech_Inspection\obj\x86\Debug\Tech_Inspection.Properties.Resources.resources
+c:\users\admin\documents\visual studio 2010\Projects\Tech_Inspection\Tech_Inspection\obj\x86\Debug\Tech_Inspection.csproj.GenerateResource.Cache
+c:\users\admin\documents\visual studio 2010\Projects\Tech_Inspection\Tech_Inspection\obj\x86\Debug\Tech_Inspection.exe
+c:\users\admin\documents\visual studio 2010\Projects\Tech_Inspection\Tech_Inspection\obj\x86\Debug\Tech_Inspection.pdb
+c:\users\admin\documents\visual studio 2010\Projects\Tech_Inspection\Tech_Inspection\obj\x86\Debug\Tech_Inspection.StartWork.resources
+c:\users\admin\documents\visual studio 2010\Projects\Tech_Inspection\Tech_Inspection\obj\x86\Debug\Tech_Inspection.Inspectors.resources
+C:\Users\Admin\documents\visual studio 2010\Projects\Tech_Inspection\Tech_Inspection\bin\Debug\Tech_Inspection.exe.config
+C:\Users\Admin\documents\visual studio 2010\Projects\Tech_Inspection\Tech_Inspection\obj\x86\Debug\Tech_Inspection.csprojResolveAssemblyReference.cache
+C:\Users\Admin\documents\visual studio 2010\Projects\Tech_Inspection\Tech_Inspection\obj\x86\Debug\Tech_Inspection.GAI.resources
+C:\Users\Admin\documents\visual studio 2010\Projects\Tech_Inspection\Tech_Inspection\obj\x86\Debug\Tech_Inspection.Owners.resources
+C:\Users\Admin\documents\visual studio 2010\Projects\Tech_Inspection\Tech_Inspection\obj\x86\Debug\Tech_Inspection.Inspections.resources
+C:\Users\Admin\documents\visual studio 2010\Projects\Tech_Inspection\Tech_Inspection\obj\x86\Debug\Tech_Inspection.HelpBooks.resources
+C:\Users\Admin\documents\visual studio 2010\Projects\Tech_Inspection\Tech_Inspection\obj\x86\Debug\Tech_Inspection.Queries.resources
+C:\Users\Admin\documents\visual studio 2010\Projects\Tech_Inspection\Tech_Inspection\obj\x86\Debug\Tech_Inspection.InputDates.resources
+C:\Users\Admin\documents\visual studio 2010\Projects\Tech_Inspection\Tech_Inspection\obj\x86\Debug\Tech_Inspection.SearchTI.resources
+C:\Users\Admin\documents\visual studio 2010\Projects\Tech_Inspection\Tech_Inspection\obj\x86\Debug\Tech_Inspection.UserControl.resources
+C:\Users\Admin\documents\visual studio 2010\Projects\Tech_Inspection\Tech_Inspection\obj\x86\Debug\Tech_Inspection.Manage.resources
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Tech_Inspection - try\Tech_Inspection\bin\Debug\Tech_Inspection.exe.config
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Tech_Inspection - try\Tech_Inspection\obj\x86\Debug\Tech_Inspection.exe
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Tech_Inspection - try\Tech_Inspection\obj\x86\Debug\Tech_Inspection.pdb
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Tech_Inspection - try\Tech_Inspection\bin\Debug\Tech_Inspection.pdb
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Tech_Inspection - try\Tech_Inspection\obj\x86\Debug\Tech_Inspection.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Tech_Inspection - try\Tech_Inspection\obj\x86\Debug\Tech_Inspection.GAI.resources
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Tech_Inspection - try\Tech_Inspection\obj\x86\Debug\Tech_Inspection.HelpBooks.resources
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Tech_Inspection - try\Tech_Inspection\obj\x86\Debug\Tech_Inspection.InputDates.resources
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Tech_Inspection - try\Tech_Inspection\obj\x86\Debug\Tech_Inspection.Inspections.resources
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Tech_Inspection - try\Tech_Inspection\obj\x86\Debug\Tech_Inspection.Inspectors.resources
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Tech_Inspection - try\Tech_Inspection\obj\x86\Debug\Tech_Inspection.Manage.resources
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Tech_Inspection - try\Tech_Inspection\obj\x86\Debug\Tech_Inspection.Owners.resources
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Tech_Inspection - try\Tech_Inspection\obj\x86\Debug\Tech_Inspection.Properties.Resources.resources
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Tech_Inspection - try\Tech_Inspection\obj\x86\Debug\Tech_Inspection.Queries.resources
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Tech_Inspection - try\Tech_Inspection\obj\x86\Debug\Tech_Inspection.SearchTI.resources
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Tech_Inspection - try\Tech_Inspection\obj\x86\Debug\Tech_Inspection.StartWork.resources
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Tech_Inspection - try\Tech_Inspection\obj\x86\Debug\Tech_Inspection.UserControl.resources
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Tech_Inspection - try\Tech_Inspection\obj\x86\Debug\Tech_Inspection.csproj.GenerateResource.Cache
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Tech_Inspection - host\Tech_Inspection\obj\x86\Debug\Tech_Inspection.AddOwner.resources
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Tech_Inspection - host\Tech_Inspection\obj\x86\Debug\Tech_Inspection.GAI.resources
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Tech_Inspection - host\Tech_Inspection\obj\x86\Debug\Tech_Inspection.HelpBooks.resources
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Tech_Inspection - host\Tech_Inspection\obj\x86\Debug\Tech_Inspection.InputDates.resources
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Tech_Inspection - host\Tech_Inspection\obj\x86\Debug\Tech_Inspection.Inspections.resources
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Tech_Inspection - host\Tech_Inspection\obj\x86\Debug\Tech_Inspection.GAIInspectors.resources
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Tech_Inspection - host\Tech_Inspection\obj\x86\Debug\Tech_Inspection.Manage.resources
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Tech_Inspection - host\Tech_Inspection\obj\x86\Debug\Tech_Inspection.Owners.resources
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Tech_Inspection - host\Tech_Inspection\obj\x86\Debug\Tech_Inspection.Properties.Resources.resources
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Tech_Inspection - host\Tech_Inspection\obj\x86\Debug\Tech_Inspection.Queries.resources
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Tech_Inspection - host\Tech_Inspection\obj\x86\Debug\Tech_Inspection.SearchTI.resources
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Tech_Inspection - host\Tech_Inspection\obj\x86\Debug\Tech_Inspection.StartWork.resources
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Tech_Inspection - host\Tech_Inspection\obj\x86\Debug\Tech_Inspection.UserControl.resources
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Tech_Inspection - host\Tech_Inspection\obj\x86\Debug\Tech_Inspection.csproj.GenerateResource.Cache
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Tech_Inspection - host\Tech_Inspection\bin\Debug\Tech_Inspection.exe.config
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Tech_Inspection - host\Tech_Inspection\bin\Debug\Tech_Inspection.exe
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Tech_Inspection - host\Tech_Inspection\bin\Debug\Tech_Inspection.pdb
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Tech_Inspection - host\Tech_Inspection\bin\Debug\System.Data.dll
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Tech_Inspection - host\Tech_Inspection\obj\x86\Debug\Tech_Inspection.exe
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Tech_Inspection - host\Tech_Inspection\obj\x86\Debug\Tech_Inspection.pdb
+C:\Users\Admin\Documents\Visual Studio 2010\Projects\Tech_Inspection - host\Tech_Inspection\obj\x86\Debug\Tech_Inspection.csprojResolveAssemblyReference.cache

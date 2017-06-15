@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="lrywxtro_Tech_InspectDataSet2" targetNamespace="http://tempuri.org/lrywxtro_Tech_InspectDataSet2.xsd" xmlns:mstns="http://tempuri.org/lrywxtro_Tech_InspectDataSet2.xsd" xmlns="http://tempuri.org/lrywxtro_Tech_InspectDataSet2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="Tech_InspectConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Tech_InspectConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Tech_Inspection.Properties.Settings.GlobalReference.Default.Tech_InspectConnectionString" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="BithdaysTableAdapter" GeneratorDataComponentClassName="BithdaysTableAdapter" Name="Bithdays" UserDataComponentName="BithdaysTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Tech_InspectConnectionString (Settings)" DbObjectName="lrywxtro_Tech_Inspect.Bithdays" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `Bith_date`, `Name`, `Telephone`, `status` FROM `lrywxtro_Tech_Inspect`.`Bithdays`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Bith_date" DataSetColumn="Bith_date" />
+              <Mapping SourceColumn="Name" DataSetColumn="Name" />
+              <Mapping SourceColumn="Telephone" DataSetColumn="Telephone" />
+              <Mapping SourceColumn="status" DataSetColumn="status" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="lrywxtro_Tech_InspectDataSet2" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="lrywxtro_Tech_InspectDataSet2" msprop:Generator_UserDSName="lrywxtro_Tech_InspectDataSet2">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Bithdays" msprop:Generator_TableClassName="BithdaysDataTable" msprop:Generator_TableVarName="tableBithdays" msprop:Generator_TablePropName="Bithdays" msprop:Generator_RowDeletingName="BithdaysRowDeleting" msprop:Generator_RowChangingName="BithdaysRowChanging" msprop:Generator_RowEvHandlerName="BithdaysRowChangeEventHandler" msprop:Generator_RowDeletedName="BithdaysRowDeleted" msprop:Generator_UserTableName="Bithdays" msprop:Generator_RowChangedName="BithdaysRowChanged" msprop:Generator_RowEvArgName="BithdaysRowChangeEvent" msprop:Generator_RowClassName="BithdaysRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Bith_date" msprop:Generator_ColumnVarNameInTable="columnBith_date" msprop:Generator_ColumnPropNameInRow="Bith_date" msprop:Generator_ColumnPropNameInTable="Bith_dateColumn" msprop:Generator_UserColumnName="Bith_date" type="xs:dateTime" />
+              <xs:element name="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_UserColumnName="Name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Telephone" msprop:Generator_ColumnVarNameInTable="columnTelephone" msprop:Generator_ColumnPropNameInRow="Telephone" msprop:Generator_ColumnPropNameInTable="TelephoneColumn" msprop:Generator_UserColumnName="Telephone" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="status" msprop:Generator_ColumnVarNameInTable="columnstatus" msprop:Generator_ColumnPropNameInRow="status" msprop:Generator_ColumnPropNameInTable="statusColumn" msprop:Generator_UserColumnName="status">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
